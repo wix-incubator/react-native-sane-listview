@@ -20,12 +20,12 @@
     "url": "https://github.com/wix/react-native-sane-listview/issues"
   },
   "homepage": "https://github.com/wix/react-native-sane-listview",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "build": "rm -rf dist && babel src -d dist",
+    "build": ":",
     "lint": "eslint src test",
     "pretest": "npm run lint",
-    "test": "node jasmineUnitRunner",
+    "test": ":",
     "release": "npm version patch && npm publish && git push"
   },
   "dependencies": {
