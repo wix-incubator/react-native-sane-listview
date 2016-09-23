@@ -423,7 +423,7 @@
       "always"
     ],
     "react/prefer-stateless-function": 0,
-    "react/prop-types": "error",
+    "react/prop-types": 0,
     "react/react-in-jsx-scope": "error",
     "react/require-extension": 0,
     "react/self-closing-comp": "error",
