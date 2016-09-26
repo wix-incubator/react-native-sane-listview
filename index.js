@@ -1,5 +1,3 @@
-import {SaneListView} from 'src/SaneListView';
+import SaneListView from './src/SaneListView';
 
-module.exports = {
-  SaneListView
-};
+export default SaneListView;
