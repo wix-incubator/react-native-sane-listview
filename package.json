@@ -26,10 +26,13 @@
     "lint": "eslint src test",
     "pretest": "npm run lint",
     "test": ":",
-    "release": "npm version patch && npm publish && git push"
+    "release": "npm version patch && npm publish && git push",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "lodash": "^4.12.0"
+    "lodash": "^4.12.0",
+    "snyk": "^1.317.0"
   },
   "peerDependencies": {
     "react-native": "*"
@@ -52,5 +55,6 @@
     "eslint-plugin-react": "^4.2.3",
     "eslint-plugin-react-native": "^1.0.0",
     "babel-eslint": "^6.0.4"
-  }
+  },
+  "snyk": true
 }
